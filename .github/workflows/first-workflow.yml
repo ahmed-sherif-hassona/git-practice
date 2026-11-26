@@ -1,0 +1,12 @@
+name: My First Workflow
+on:
+push:
+jobs:
+hello:
+runs-on: ubuntu-latest
+steps:- name: Print Hello
+run: echo "Hello from GitHub Actions!"
+run: pwd
+Workflow أول- name: Show current directory- name: List files
+run: ls-la
+run: ls-la
